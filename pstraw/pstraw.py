@@ -57,5 +57,8 @@ def post(title, options, multi=False, dupcheck='normal', captcha=False):
     data = {'title': title, 'options': options}
     print(data)
     headers = {'Content-Type': 'application/json'}
+    # Note: To successfully POST, the url must be exactly:
+    # https://www.strawpoll.me/api/v2/polls
+    # And the Content-Type header above must be included.
     resp = requests.post(polls_url(), json=data, headers=headers)
     return safe_poll(resp)
