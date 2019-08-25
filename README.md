@@ -19,3 +19,7 @@ PStraw is a simple Python module wrapping the [Strawpoll](https://www.strawpoll.
 >>> newpoll.data
 {"id":18537745,"title":"What day is it?","options":["Monday", "Unknown"],"votes":[0,0],"multi":false,"dupcheck":"normal","captcha":false}
 ```
+
+### Notes
+
+According to Strawpoll's [API Reference](https://github.com/strawpoll/strawpoll/wiki/API), `post` is limited to 100 requests per user per hour. Otherwise, there are no noted limitations.
