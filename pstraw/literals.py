@@ -7,5 +7,4 @@ _strawpoll_poll_ext = 'polls'
 _url_regex = re.compile(r'(https?://)?(www\.)?strawpoll\.me/([0-9]+)')
 _url_regex_id_group = 3
 
-_re_404 = re.compile(r'<title>Not found - Straw Poll *</title>')
 _re_cf = re.compile(r'Checking your browser')
