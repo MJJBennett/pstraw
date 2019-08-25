@@ -2,6 +2,10 @@
 
 PStraw is a simple Python module wrapping the [Strawpoll](https://www.strawpoll.me) API. Their API reference is [here](https://github.com/strawpoll/strawpoll/wiki/API).
 
+#### Install
+
+`pip install git+https://github.com/MJJBennett/pstraw.git`
+
 #### Usage
 
 ```python
