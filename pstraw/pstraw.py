@@ -14,6 +14,9 @@ class Poll:
     def id(self):
         """Returns the ID of the poll."""
         return self.data['id']
+    def url(self):
+        """Returns the URL of the poll."""
+        return lit._strawpoll_url + '/' + self.id()
     def title(self):
         """Returns the title of the poll."""
         return self.title['title']
