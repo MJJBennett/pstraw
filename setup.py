@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pstraw",
-    version="0.0.3",
+    version="0.0.4",
     author="Michael Bennett",
     author_email="michaelbennett.dev@gmail.com",
     description="A very light wrapper for the Strawpoll API.",

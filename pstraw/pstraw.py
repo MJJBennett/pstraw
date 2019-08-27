@@ -58,7 +58,7 @@ def get(id=None, url=None):
 
 def post(title, options, multi=False, dupcheck='normal', captcha=False):
     # API preconditions
-    if len(options) > 2 or len(options) > 30:
+    if len(options) < 2 or len(options) > 30:
         raise ValueError("Value for options must be a list with between 2 and 30 options.")
     if title == '':
         raise ValueError("Title cannot be a 0-length string.")
